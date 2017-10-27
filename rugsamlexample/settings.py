@@ -31,6 +31,8 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'rugsamlexample.urls'
 
+LOGIN_URL='accounts/login'
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
