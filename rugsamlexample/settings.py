@@ -1,7 +1,7 @@
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-
+ALLOWED_HOSTS = ['rugsamlexample-dev2.jzxrtdh3tt.eu-west-1.elasticbeanstalk.com']
 SECRET_KEY = '1&!h_59t55cq%byi(01(+p2_g^xd2v-no$3rzc8xe7i=3ihhl6'
 
 DEBUG = True
