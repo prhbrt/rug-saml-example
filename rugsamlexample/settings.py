@@ -48,25 +48,12 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'rugsamlexample.wsgi.application'
 
-#DATABASES = {
-#    'default': {
-#        'ENGINE': 'django.db.backends.sqlite3',
-#        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#    }
-#}
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'rugsamlexample',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
-
 
 SAML2_AUTH = {
     'METADATA_AUTO_CONF_URL': 'https://tst-idp.id.rug.nl/nidp/saml2/metadata',
