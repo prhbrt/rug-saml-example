@@ -9,7 +9,7 @@ chardet==3.0.4
 colorama==0.3.7
 cryptography==2.1.2
 decorator==4.1.2
-Django==1.11.23
+Django==1.11.28
 django-bootstrap3==8.2.3
 django-saml2-auth==2.1.1
 django-tables2==1.6.1
