@@ -25,7 +25,7 @@ pathspec==0.5.0
 pycparser==2.18
 pycryptodomex==3.4.7
 pyOpenSSL==17.3.0
-pysaml2==4.0.5
+pysaml2==6.5.0
 python-dateutil==2.6.1
 pytz==2017.2
 PyYAML==3.12
