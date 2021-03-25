@@ -28,7 +28,7 @@ pyOpenSSL==17.3.0
 pysaml2==4.0.5
 python-dateutil==2.6.1
 pytz==2017.2
-PyYAML==3.12
+PyYAML==5.4
 repoze.who==2.3
 requests==2.9.1
 semantic-version==2.5.0
